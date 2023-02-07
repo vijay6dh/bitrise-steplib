@@ -3,12 +3,12 @@ summary: |
   This script will use ImageMagick to stamp the version number to all icons.
 description: |
   Stamps version "version(build number)" to the bottom of the icon.
-website: https://github.com/ollitapa/bitrise-step-stamp-appicon-with-version-number
-source_code_url: https://github.com/ollitapa/bitrise-step-stamp-appicon-with-version-number
-support_url: https://github.com/ollitapa/bitrise-step-stamp-appicon-with-version-number/issues
+website: https://github.com/vijay6dh/bitrise-step-stamp-appicon-with-version-number
+source_code_url: https://github.com/vijay6dh/bitrise-step-stamp-appicon-with-version-number
+support_url: https://github.com/vijay6dh/bitrise-step-stamp-appicon-with-version-number/issues
 published_at: !!timestamp 2018-04-04T16:50:55.395108202+03:00
 source:
-  git: https://github.com/ollitapa/bitrise-step-stamp-appicon-with-version-number.git
+  git: https://github.com/vijay6dh/bitrise-step-stamp-appicon-with-version-number.git
   commit: 5c7c44df263ab5201f14dfcb7be2eeb95417bce0
 host_os_tags:
 - osx-10.10
@@ -19,7 +19,7 @@ type_tags:
 - deploy
 toolkit:
   go:
-    package_name: github.com/ollitapa/bitrise-step-stamp-appicon-with-version-number
+    package_name: github.com/vijay6dh/bitrise-step-stamp-appicon-with-version-number
 deps:
   brew:
   - name: imagemagick
